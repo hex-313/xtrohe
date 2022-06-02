@@ -26,7 +26,7 @@
       },
       "DOWNLOAD_DIR": {
         "description": "The path to the local folder where the downloads should be downloaded to.",
-        "value": "/usr/src/app/downloads",
+        "value": "/usr/src/app/warish",
         "required": false
       },
       "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
@@ -118,6 +118,12 @@
       },
       "IS_TEAM_DRIVE": {
         "description": "Extra buttons (optional).",
+        "value": "TRUE",
+        "required": false
+      },
+      "ACCOUNTS_ZIP_URL": {
+        "description": "Fill your URL if you are using service accounts.",
+        "value": "",
         "required": false
       },
       "BUTTON_FOUR_URL": {
@@ -129,6 +135,16 @@
         "value": "https://appname.herokuapp.com",
         "required": true
       },
+      "UPSTREAM_BRANCH": {
+        "description": "Fill your branch name if you are using upstream repo.",
+        "value": "",
+        "required": false
+      },
+      "UPSTREAM_REPO": {
+        "description": "Fill your repo URL if you are using upstream repo.",
+        "value": "",
+        "required": false
+      },
       "CRYPT": {
         "description": "Extra buttons (optional).",
         "value": "from extension getcookies.text",
@@ -136,7 +152,7 @@
       },
       "LOG_CHANNEL_ID": {
         "description": "Extra buttons (optional).",
-        "value": "-1001599623514",
+        "value": "-1001554484415",
         "required": true
       },
       "CLONE_LIMIT": {
@@ -146,7 +162,7 @@
       },
       "SUDO_USERS": {
         "description": "Extra buttons (optional).",
-        "value": "1292850703",
+        "value": "1756075219",
         "required": true
       },
       "STATUS_LIMIT": {
