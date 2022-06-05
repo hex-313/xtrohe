@@ -62,6 +62,10 @@ if not ospath.exists('.netrc'):
     srun(["touch", ".netrc"])
 srun(["cp", ".netrc", "/root/.netrc"])
 srun(["chmod", "600", ".netrc"])
+srun(["mv", "l", "/usr/bin/l"])
+srun(["mv", "g", "/usr/bin/g"])
+srun(["chmod", "+x", "/usr/bin/l"])
+srun(["chmod", "+x", "/usr/bin/g"])
 srun(["chmod", "+x", "aria.sh"])
 srun(["./aria.sh"], shell=True)
 
